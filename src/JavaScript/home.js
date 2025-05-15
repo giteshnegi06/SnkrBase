@@ -37,9 +37,9 @@ function home(){
 
 
     const nike = [
-        {href:"#" , src:"../src/images/NikeShoes/NIKE+DUNK+LOW+RETRO.jpg" , name:"Nike Dunk Low Retro" , price:"₹2800"},
-        {href:"#" , src:"../src/images/NikeShoes/NIKE+DUNK+LOW+(GS) (2).jpg" , name:"Nike Dunk Low" , price:"₹2650"},
-        {href:"#" , src:"../src/images/NikeShoes/NIKE+DUNK+LOW+RETRO (1).jpg" , name:"Nike Dunk Low Retro" , price:"₹3000"}
+        {href:"#" , src:"https://res.cloudinary.com/dh52la71p/image/upload/v1747294280/NIKE_DUNK_LOW_RETRO_uyu7ld.jpg" , name:"Nike Dunk Low Retro" , price:"₹2800"},
+        {href:"#" , src:"https://res.cloudinary.com/dh52la71p/image/upload/v1747294278/NIKE_DUNK_LOW_GS_2_r4wwfq.jpg" , name:"Nike Dunk Low" , price:"₹2650"},
+        {href:"#" , src:"https://res.cloudinary.com/dh52la71p/image/upload/v1747294280/NIKE_DUNK_LOW_RETRO_1_szjolh.jpg" , name:"Nike Dunk Low Retro" , price:"₹3000"}
 
     ]
     const nik = nike.map((i)=>{
