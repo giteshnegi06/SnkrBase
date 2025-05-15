@@ -14,7 +14,7 @@ function navbar() {
 
     const login = [
         { name: "Help", href: "./help.html" },
-        { name: "OrderandRetuen", href: "./orderandreturn.html" },
+        { name: "OrderandReturn", href: "./orderandreturn.html" },
         { name: "Sign up",  onclick: "openSignupPopup()" },
         { name: "Log in", href: "./login.html" },
     ]
