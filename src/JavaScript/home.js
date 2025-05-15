@@ -14,9 +14,9 @@ function home(){
 
 
     const adidas = [
-        {href:"../src/adibuy.html" , src:"../src/images/addi/Samba_OG_Shoes_Black_B75807_01_standard.avif" , name:"Handball Spezial Shoes" , price:"₹3000"},
-        {href:"#" , src:"../src/images/addi/Samba_OG_Shoes_White_B75806_01_00_standard.avif" , name:"Samba OG Shoes" , price:"₹2800"},
-        {href:"#" , src:"../src/images/addi/Samba_OG_Shoes_White_IH4881_01_standard.avif" , name:"Samba OG Shoes" , price:"₹2750"}
+        {href:"../src/adibuy.html" , src:"https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_Black_B75807_01_standard_vjjofb.avif" , name:"Handball Spezial Shoes" , price:"₹3000"},
+        {href:"#" , src:"https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_White_B75806_01_00_standard_xv0bns.avif" , name:"Samba OG Shoes" , price:"₹2800"},
+        {href:"#" , src:"https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_White_IH4881_01_standard_qdtorx.avif" , name:"Samba OG Shoes" , price:"₹2750"}
 
     ]
 
@@ -73,7 +73,7 @@ function home(){
 
 
         <div class="w-300">
-            <a href="../Pages/adidas.html">
+            <a href="../src/adidas.html">
                 <span
                     class=" absolute my-170 mx-60 font-bold text-[40px] opacity-80 hover:opacity-100 font-mono">Handball
                     Spezial</span>
@@ -82,7 +82,7 @@ function home(){
 
         </div>
         <div class="w-300 ">
-            <a href="./nike.html">
+            <a href="../src/nike.html">
                 <span class="absolute my-170 mx-63 font-bold text-[40px] opacity-80 hover:opacity-100 font-mono ">Nike
                     Dunk Low Retro</span>
                 <img src="../src/images/NikeShoes/NIKE+DUNK+LOW+RETRO.jpg" alt="Nike Dunk Low Retro">

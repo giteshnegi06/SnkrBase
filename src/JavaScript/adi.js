@@ -1,15 +1,15 @@
 function adi() {
 
     const adidas = [
-        { name: "Handball Spezial Shoes", src: "../images/addi/Samba_OG_Shoes_Black_B75807_01_standard.avif", price: "₹3500", href: "../Pages/adibuy.html" },
-        { name: "Handball Spezial Shoes", src: "../images/addi/Samba_OG_Shoes_White_IG1024_01_standard.avif", price: "₹3500" },
-        { name: "Samba OG Shoes", src: "../images/addi/Samba_OG_Shoes_White_B75806_01_00_standard.avif", price: "₹3500" },
-        { name: "Samba OG Shoes", src: "../images/addi/Samba_OG_Shoes_White_IH4881_01_standard.avif", price: "₹3500" },
-        { name: "Handball Spezial Shoes", src: "../images/addi/Handball_Spezial_Shoes_Blue_BD7632_01_00_standard.avif", price: "₹3500" },
-        { name: "Gazelle Shoes", src: "../images/addi/Gazelle_Shoes_Blue_BB5478_01_standard.avif", price: "₹3500" },
-        { name: "Samba OG Shoes", src: "../images/addi/Samba_OG_Shoes_White_IH4881_01_standard.avif", price: "₹3500" },
-        { name: "Handball Spezial Shoes", src: "../images/addi/Handball_Spezial_Shoes_Blue_BD7632_01_00_standard.avif", price: "₹3500" },
-        { name: "Gazelle Shoes", src: "../images/addi/Gazelle_Shoes_Blue_BB5478_01_standard.avif", price: "₹3500" },
+        { name: "Handball Spezial Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_Black_B75807_01_standard_vjjofb.avif", price: "₹3500", href: "../Pages/adibuy.html" },
+        { name: "Handball Spezial Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_White_IH4881_01_standard_qdtorx.avif", price: "₹3500" },
+        { name: "Samba OG Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_White_IG1024_01_standard_i1rtpy.avif", price: "₹3500" },
+        { name: "Samba OG Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293785/Handball_Spezial_Shoes_Blue_BD7632_01_00_standard_kdlfve.avif", price: "₹3500" },
+        { name: "Handball Spezial Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293785/Handball_Spezial_Shoes_Blue_BD7632_01_00_standard_kdlfve.avif", price: "₹3500" },
+        { name: "Gazelle Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293785/Gazelle_Shoes_Blue_BB5478_01_standard_zkq1fb.avif", price: "₹3500" },
+        { name: "Samba OG Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_White_B75806_01_00_standard_xv0bns.avif", price: "₹3500" },
+        { name: "Handball Spezial Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_Black_B75807_02_standard_ufdfdf.avif", price: "₹3500" },
+        { name: "Gazelle Shoes", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747293785/Handball_Spezial_Shoes_Black_DB3021_01_00_standard_duycjy.avif", price: "₹3500" },
     ]
 
     const data = adidas.map((i) => {

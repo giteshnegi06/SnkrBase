@@ -1,15 +1,15 @@
 function nike() {
 
     const adidas = [
-        { name: "Nike Dunk Low Retro", src: "../images/NikeShoes/NIKE+DUNK+LOW+RETRO.jpg", price: "₹3500" },
-        { name: "Nike Dunk Low", src: "../images/NikeShoes/NIKE+DUNK+LOW+(GS).jpg", price: "₹3500" },
-        { name: "Nike Dunk Low Retro", src: "../images/NikeShoes/NIKE+DUNK+LOW+SE.jpg", price: "₹3500" },
-        { name: "Nike Dunk Low Retro", src: "../images/NikeShoes/NIKE+DUNK+LOW+RETRO.jpg", price: "₹3500" },
-        { name: "Nike Dunk Low", src: "../images/NikeShoes/NIKE+DUNK+LOW+(GS).jpg", price: "₹3500" },
-        { name: "Nike Dunk Low Retro", src: "../images/NikeShoes/NIKE+DUNK+LOW+SE.jpg", price: "₹3500" },
-        { name: "Nike Dunk Low Retro", src: "../images/NikeShoes/NIKE+DUNK+LOW+RETRO.jpg", price: "₹3500" },
-        { name: "Nike Dunk Low", src: "../images/NikeShoes/NIKE+DUNK+LOW+(GS).jpg", price: "₹3500" },
-        { name: "Nike Dunk Low Retro", src: "../images/NikeShoes/NIKE+DUNK+LOW+SE.jpg", price: "₹3500" }
+        { name: "Nike Dunk Low Retro", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294280/NIKE_DUNK_LOW_RETRO_uyu7ld.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294278/NIKE_DUNK_LOW_GS_2_r4wwfq.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low Retro", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294280/NIKE_DUNK_LOW_RETRO_1_szjolh.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low Retro", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294279/NIKE_DUNK_LOW_GS_omp2jj.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294278/NIKE_DUNK_LOW_GS_1_xehfyb.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low Retro", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294281/NIKE_DUNK_LOW_SE_iayojo.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low Retro", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294280/NIKE_DUNK_LOW_RETRO_uyu7ld.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294278/NIKE_DUNK_LOW_GS_2_r4wwfq.jpg", price: "₹3500" },
+        { name: "Nike Dunk Low Retro", src: "https://res.cloudinary.com/dh52la71p/image/upload/v1747294279/NIKE_DUNK_LOW_GS_omp2jj.jpg", price: "₹3500" }
        
     ]
 
