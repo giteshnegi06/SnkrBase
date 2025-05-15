@@ -73,16 +73,16 @@ function home(){
 
 
         <div class="w-300">
-            <a href="../src/adidas.html">
+            <a href="./adidas.html">
                 <span
                     class=" absolute my-170 mx-60 font-bold text-[40px] opacity-80 hover:opacity-100 font-mono">Handball
                     Spezial</span>
-                <img src="https://res.cloudinary.com/dh52la71p/image/upload/v1747293785/Handball_Spezial_Shoes_Black_DB3021_01_00_standard_duycjy.avif" alt="Handball Spezial"></a>
+                <img src="https://res.cloudinary.com/dh52la71p/image/upload/v1747293786/Samba_OG_Shoes_Black_B75807_01_standard_vjjofb.avif" alt="Handball Spezial"></a>
 
 
         </div>
         <div class="w-300 ">
-            <a href="../src/nike.html">
+            <a href="./nike.html">
                 <span class="absolute my-170 mx-63 font-bold text-[40px] opacity-80 hover:opacity-100 font-mono ">Nike
                     Dunk Low Retro</span>
                 <img src="https://res.cloudinary.com/dh52la71p/image/upload/v1747294280/NIKE_DUNK_LOW_RETRO_uyu7ld.jpg" alt="Nike Dunk Low Retro">
