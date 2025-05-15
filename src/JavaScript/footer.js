@@ -12,7 +12,7 @@ function footer() {
     return `
        <div class="flex text-white justify-between px-70 py-32 ">
         <div class="">
-           <a href="../Pages/index.html"> <img src="../src/images/Logo/snkr.png" alt="SnkrBase " class="w-50 opacity-50"></a>
+           <a href="./index.html"> <img src="https://res.cloudinary.com/dh52la71p/image/upload/v1747298348/snkr_jci02u.png" alt="SnkrBase " class="w-50 opacity-50"></a>
    <pre>      <address><a href="https://maps.app.goo.gl/3dn8E8UR9of1baro7">Karnal, Haryana (IN)</a></address>
     <a href="#">Call Us</a>  <a href="#">Mail Us</a></pre>
         </div>

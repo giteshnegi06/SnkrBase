@@ -28,7 +28,7 @@ function navbar() {
 
     return `
      <nav class="flex justify-between px-10 text-2xl bg-black text-white sticky">
-            <h1><a href="./index.html"><img src="../src/images/Logo/snkr.png" alt="Logo"
+            <h1><a href="./index.html"><img src="https://res.cloudinary.com/dh52la71p/image/upload/v1747298348/snkr_jci02u.png" alt="Logo"
                         class="h-20 py-0.5 bg-blend-color"></a></h1>
 
             <ul class="hidden md:flex space-x-6 py-5 font-mono ml-50 gap-10" id="ul1">
