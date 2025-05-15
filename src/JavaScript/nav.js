@@ -15,8 +15,8 @@ function navbar() {
     const login = [
         { name: "Help", href: "#" },
         { name: "OrderandRetuen", href: "#" },
-        { name: "Sign up", href: "#", onclick: "openSignupPopup()" },
-        { name: "Log in", href: "../Pages/login.html" },
+        { name: "Sign up",  onclick: "openSignupPopup()" },
+        { name: "Log in", onclick: "openSignupPopup()" },
     ]
 
     const menu2 = login.map((i) => {
@@ -76,3 +76,4 @@ function closePopup() {
     popup.classList.add("opacity-0", "pointer-events-none");
     popup.classList.remove("opacity-100");
 }
+
