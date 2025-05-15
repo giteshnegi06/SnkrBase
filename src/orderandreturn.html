@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Returns & Orders - SnkrBase</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <header id="navbar">
+        <script src="./JavaScript/nav.js"></script>
+    </header>
+
+
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto p-6 mt-8 bg-white shadow-md rounded-lg">
+    <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Orders & Returns</h2>
+
+    <!-- Order Lookup Form -->
+    <section class="mb-10">
+      <h3 class="text-xl font-semibold mb-4">Find Your Order</h3>
+      <form class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Order Number</label>
+          <input type="text" placeholder="e.g. #SNKR123456" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Email Address</label>
+          <input type="email" placeholder="you@example.com" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" />
+        </div>
+        <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700">Find Order</button>
+      </form>
+    </section>
+
+    <!-- Return Form -->
+    <section class="mb-10">
+      <h3 class="text-xl font-semibold mb-4">Request a Return</h3>
+      <form class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Reason for Return</label>
+          <select class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+            <option>Wrong size</option>
+            <option>Wrong item</option>
+            <option>Damaged product</option>
+            <option>Changed my mind</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Additional Comments</label>
+          <textarea rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+        </div>
+        <button type="submit" class="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700">Submit Return Request</button>
+      </form>
+    </section>
+
+    <!-- Help -->
+    <section class="text-center border-t pt-6">
+      <p class="text-sm text-gray-500">Need help? Contact our <a href="/support" class="text-indigo-600 hover:underline">Support Team</a>.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white mt-10 border-t">
+    <div class="max-w-7xl mx-auto px-4 py-6 text-sm text-gray-500 text-center">
+      © 2025 SnkrBase. All rights reserved.
+    </div>
+  </footer>
+<footer id="footer" class="bg-black sticky font-mono">
+        <script src="./JavaScript/footer.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,9 +1,9 @@
 function navbar() {
     const Menudata = [
-        { name: "Home", href: "../src/index.html" },
+        { name: "Home", href: "./index.html" },
         { name: "Products", href: "#" },
         { name: "Sale", href: "#" },
-        { name: "AboutUs", href: "#" },
+        { name: "AboutUs", href: "./Aboutus.html" },
     ]
 
     const menu = Menudata.map((i) => {
@@ -13,10 +13,10 @@ function navbar() {
     }).join('')
 
     const login = [
-        { name: "Help", href: "#" },
-        { name: "OrderandRetuen", href: "#" },
+        { name: "Help", href: "./help.html" },
+        { name: "OrderandRetuen", href: "./orderandreturn.html" },
         { name: "Sign up",  onclick: "openSignupPopup()" },
-        { name: "Log in", onclick: "openSignupPopup()" },
+        { name: "Log in", href: "./login.html" },
     ]
 
     const menu2 = login.map((i) => {

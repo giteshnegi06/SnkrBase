@@ -40,7 +40,7 @@ function footer() {
 
         <div>
             <h2 class="text-2xl"><b>Contact</b></h2><br>
-            <a href="#">About Us</a><br>
+            <a href="./Aboutus.html">About Us</a><br>
             <hr><br>
             <a href="#">Contact</a><br>
             <hr>
